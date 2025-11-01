@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <img src="https://i.postimg.cc/GmTddf80/photo-2025-11-02-00-21-28.jpg" alt="Фото" class="avatar">
+            <div class="header-info">
+                <h2>Веб-розробник</h2>
+                <p>vladmozghunov@gmail.com | (066) 521 38 61</p>
+            </div>
+        </header>
+
+        <section class="summary">
+            <p>Я студент спеціальності Кібербезпека,навчаюся на кафедрі  інженерії програмного забезпечення та кібербезпеки.Веб-розробник без досвіду. Люблю писати чистий код, оптимізую швидкодію сайтів .</p>
+        </section>
+
+        <div class="main">
+            <div class="left">
+
+                <section>
+                    <h3>Досвід роботи</h3>
+
+                    <div class="job">
+                        <h4>Без досвіду</h4>
+                       
+
+                <section>
+                    <h3>Освіта</h3>
+                    <p><b>ДЕРЖАВНИЙ ТОРГОВЕЛЬНО-ЕКОНОМІЧНИЙ УНІВЕРСИТЕТ / КИЇВСЬКИЙ НАЦІОНАЛЬНИЙ ТОРГОВЕЛЬНО-ЕКОНОМІЧНИЙ УНІВЕРСИТЕТ</b></p>
+                    <p>Бакалавр, Кібербезпека | 2 курс</p>
+                </section>
+
+                <section>
+                    <h3>Додаткова освіта</h3>
+                    <p><b>Курс “3D modeling”</b></p>
+                    <p>Ліцей № 141 «Освітні ресурси та технологічний тренінг» | 2023</p>
+                </section>
+
+            </div>
+
+            <div class="right">
+
+                <section>
+                    <h3>Портфоліо</h3>
+                    <p><a href="https://github.com/vladmozghunov-web" target="_blank">https://github.com/vladmozghunov-web</a></p>
+                </section>
+
+                <section>
+                    <h3>Навички</h3>
+                    <div class="skills">
+                        <span>HTML</span>
+                        <span>CSS / SCSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Git / GitHub</span>
+                        <span>Figma</span>
+                        <span>WordPress</span>
+                        <span>SEO</span>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Мови</h3>
+                    <p>Українська — рідна</p>
+                    <p>Англійська — A2</p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

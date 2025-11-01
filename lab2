@@ -1,0 +1,51 @@
+using System;
+
+class Animal
+{
+  
+    public string Name;
+    public int Energy = 50;
+
+    public void Eat(Plant plant)
+    {
+        Console.WriteLine($"{Name} їсть {plant.Type}.");
+        Energy += plant.Nutrition;
+        Console.WriteLine($"{Name} тепер має {Energy} енергії.");
+    }
+}
+
+class Plant
+{
+    public string Type;
+    public int Nutrition;
+
+    public void Grow()
+    {
+        Console.WriteLine($"{Type} росте на сонці ");
+    }
+}
+
+class Human
+{
+    public string Name;
+
+    public void WaterPlant(Plant plant)
+    {
+        Console.WriteLine($"{Name} поливає {plant.Type} ");
+        plant.Grow();
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+
+        Plant tree = new Plant { Type = "Дуб", Nutrition = 10 };
+        Animal deer = new Animal { Name = "Олень" };
+        Human person = new Human { Name = "Іван" };
+
+        person.WaterPlant(tree);
+        deer.Eat(tree);
+    }
+}

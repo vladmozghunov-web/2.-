@@ -1,0 +1,32 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.InputEncoding = System.Text.Encoding.UTF8;
+        while (true)
+        {
+            Console.Write("Введіть рік (0 - вихід): ");
+            int year = int.Parse(Console.ReadLine());
+
+            if (year == 0)
+            {
+                Console.WriteLine("Програма завершена.");
+                break;
+            }
+
+            if (IsLeapYear(year))
+                Console.WriteLine($"{year} рік є високосним.\n");
+            else
+                Console.WriteLine($"{year} рік НЕ є високосним.\n");
+        }
+    }
+
+    static bool IsLeapYear(int year)
+    {
+        
+        return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+    }
+}
